@@ -5,6 +5,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #121212;
+    background-image: url('fundo.jpg'); /* Nome do arquivo */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
 }
 
 .center {
@@ -25,11 +29,6 @@ body {
   --font-size: 16px;
   --font-weight: 600;
   --font-family: Menlo,Roboto Mono,monospace;
-}
-
-/* button settings 👆 */
-
-.ui-btn {
   box-sizing: border-box;
   padding: var(--btn-padding);
   display: flex;
@@ -43,7 +42,7 @@ body {
   transition: var(--btn-transition);
   overflow: hidden;
   box-shadow: var(--btn-shadow);
-  border-radius: 20px;  /* Bordas mais arredondadas */
+  border-radius: 20px;
 }
 
 .ui-btn span {
@@ -74,96 +73,25 @@ body {
 }
 
 @keyframes chitchat {
-  0% {
-    content: "#";
-  }
-
-  5% {
-    content: ".";
-  }
-
-  10% {
-    content: "^{";
-  }
-
-  15% {
-    content: "-!";
-  }
-
-  20% {
-    content: "#$_";
-  }
-
-  25% {
-    content: "№:0";
-  }
-
-  30% {
-    content: "#{+.";
-  }
-
-  35% {
-    content: "@}-?";
-  }
-
-  40% {
-    content: "?{4@%";
-  }
-
-  45% {
-    content: "=.,^!";
-  }
-
-  50% {
-    content: "?2@%";
-  }
-
-  55% {
-    content: "\;1}]";
-  }
-
-  60% {
-    content: "?{%:%";
-    right: 0;
-  }
-
-  65% {
-    content: "|{f[4";
-    right: 0;
-  }
-
-  70% {
-    content: "{4%0%";
-    right: 0;
-  }
-
-  75% {
-    content: "'1_0<";
-    right: 0;
-  }
-
-  80% {
-    content: "{0%";
-    right: 0;
-  }
-
-  85% {
-    content: "]>'";
-    right: 0;
-  }
-
-  90% {
-    content: "4";
-    right: 0;
-  }
-
-  95% {
-    content: "2";
-    right: 0;
-  }
-
-  100% {
-    content: "";
-    right: 0;
-  }
+  0% { content: "#"; }
+  5% { content: "."; }
+  10% { content: "^{"; }
+  15% { content: "-!"; }
+  20% { content: "#$_"; }
+  25% { content: "№:0"; }
+  30% { content: "#{+."; }
+  35% { content: "@}-?"; }
+  40% { content: "?{4@%"; }
+  45% { content: "=.,^!"; }
+  50% { content: "?2@%"; }
+  55% { content: "\;1}]"; }
+  60% { content: "?{%:%"; right: 0; }
+  65% { content: "|{f[4"; right: 0; }
+  70% { content: "{4%0%"; right: 0; }
+  75% { content: "'1_0<"; right: 0; }
+  80% { content: "{0%"; right: 0; }
+  85% { content: "]>'"; right: 0; }
+  90% { content: "4"; right: 0; }
+  95% { content: "2"; right: 0; }
+  100% { content: ""; right: 0; }
 }
